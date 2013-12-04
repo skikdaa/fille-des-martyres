@@ -1,0 +1,21 @@
+
+<article id="main">
+   <section id="content">
+
+    <h1>Organisations</h1>
+
+      <% @organisations.each do |organisation| %>
+    
+     
+   	  <h2><a href= "<%= organisation.link %>"><%=organisation.name%></a></h2>
+     <p>
+     <%= organisation.description %>
+    </p>
+      
+  
+  <% end %>
+ 
+</section>
+</article>
+
+

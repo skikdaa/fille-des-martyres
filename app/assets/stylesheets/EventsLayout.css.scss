@@ -1,0 +1,44 @@
+/* Styling of the events section */
+/********************************/
+
+@import "site-branding";
+
+section#events{
+  padding-left: 20px;
+  font-family: $body-font;
+	 section
+     {
+             margin-left: 30px;
+             margin-right: 100px;
+             padding: 2px;
+             background-color: $green;
+             border-style:solid;
+             border-color: $grey-white;
+	 
+	    h1
+           { font-family: $header-1-font;
+             text-align:center;
+        	 color:$turquois;
+        	 font-style: bold;
+             font-size: 30px;
+	       }
+
+	    h2
+           {
+            color:$light-brown;
+            text-align:center;
+            font-size: 18px;
+           }
+   
+        p
+           {  
+             padding-left: 5px;
+             padding-right: 5px;
+           }
+      }
+}
+
+section#events section:nth-child(even)
+ {
+    background-color: $green-white;
+ }

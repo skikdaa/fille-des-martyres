@@ -1,0 +1,64 @@
+/*navigation.css.scss
+* Styling of the navigation bar
+* & 
+*/
+/********************************/
+
+@import "site-branding";
+nav#main_nav
+
+{
+    ul
+    {
+		list-style-type:none;
+		margin:0;
+		overflow:hidden;
+		border:3px solid gray;
+		width:1200px;
+		text-align:center;
+		font-size: 2em;
+		font-family:$accent-font;
+	 	font-style: bold;
+	 	padding: 7px;
+	 	background-color:$near-white;
+	 	border-radius:25px;
+    }
+
+    li
+    {
+		float:left;
+
+    }
+
+	a
+	{
+	    text-decoration:none;
+		display:block;
+		width:200px;
+		background-color:$near-white;
+	}
+}
+
+nav#footer-nav, 
+nav#admin-nav
+{
+    ul
+   	{ 
+	   	list-style-type:none;
+	  	text-align: right;
+    }
+
+    li 
+    {
+        float:right;
+        padding:4px 6px;
+        font-size: 1.5em;
+     
+    }
+
+   
+}
+
+  
+  	
+

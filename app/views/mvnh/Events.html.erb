@@ -1,0 +1,42 @@
+
+<article id="main">
+  
+  <section id="content">
+      <h1>Natural History Related Events in Mole Valley</h1>
+ 
+        <p>
+         Mole Valley has a lively and active community of natural history enthusiasts. There are events
+         that suite all levels of experience. We provide here some links that will keep you up to date
+         with natural history related activities in Mole Valley.
+        </p>
+
+        <p>
+         The RSPB Dorking and District Local Group organise regular events throughout the year that are
+         open to all. You do not need to be an expert birdwatcher. Indeed you will find many are ideal 
+         for those that are wanting to get started. An up to date programme of events can be found
+         <a href="http://www.rspb.org.uk/groups/dorkinganddistrict/events/">here</a>.
+        </p>
+
+        <p>
+         Amphibians and Reptiles are important indicators of habitat quality. The Surrey Amphibian and Reptile
+         Group is an extremely active and enthusiastic group that provides important support for some of our
+         most threatened habitats. An up to date list of their events can be found <a href="http://surrey-arg.org.uk/SARG/30000-CommitteeTools/calendar/SARGcalendar.asp">here</a>.
+        </p>
+
+        <h2>Latest Events</h2>
+        <section id="events">
+       <% @events.each do |event| %>
+
+            <section>
+                <h1><%= event.title %></h1>
+                <h2>Event date: <%= event.date %></h2>
+                <p>
+                 <%= event.description %>
+                </p>
+
+           </section>
+         <% end %>
+
+   </section>
+ </article> 
+

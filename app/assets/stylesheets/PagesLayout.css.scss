@@ -1,0 +1,83 @@
+/* PagesLayout.css.scss
+*  Styling of the webpages
+*  ( h1, h2, p, Images, )
+*/
+/********************************/
+
+@import "site-branding";
+
+article#main{
+
+	background-color:$grey-white;
+	min-height:1310px;
+	margin-left:25px;
+	margin-right:25px;
+	border-style:solid;
+	border-color:$brown;
+	border-radius:25px;
+
+}
+
+section#content{
+  padding: 0 40px;
+ 
+	 h1 {   font-family: $header-1-font;
+			color:$dark-green;
+		    font-size: 35px;
+	    }
+
+     h2 {
+	        color:$light-brown;
+		    font-size: 23px;
+
+		    a,
+		    a:link    {color: $green-1;}
+		  //a:visited {color: $light-brown;}
+		    a:hover   {color: $light-brown;}
+		    a:active  {color: $green-white;}
+		}
+
+	 p  {         
+			color:$near-black;
+		    font-size: 18px;
+		    line-height:185%;
+		     font-family: $body-font;
+		}
+
+     
+     a,
+     a:link    {color: $light-brown;}
+   //a:visited {color: $dark-green;}
+     a:hover   {color: $dark-green;}
+     a:active  {color: $green-white;}
+
+
+     li {
+            list-style-type:none;
+            font-size:18px;
+            margin-bottom:10px;
+           }
+      
+     img
+      {
+            padding: 20px;
+      }
+
+ }
+
+.birds{
+	width:250px;
+	height:175px;
+	
+}
+
+.butterflies{
+	width: 320px;
+	height: 320px;
+}
+
+.fungi{
+	width: 250px;
+	height: 175px;
+
+}

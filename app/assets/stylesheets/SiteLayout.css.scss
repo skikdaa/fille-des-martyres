@@ -1,0 +1,69 @@
+/* SiteLayout.css.scss
+*  Styling of the overall website structure
+*  ( Container, Header, Footer, Image)
+*/
+
+/********************************/
+
+@import "site-branding";
+
+body{
+	background-image:url('grey-flower.jpg');
+       
+}
+
+div#container{
+	display:block;
+	position: relative;
+	min-height:1300px;
+	width:1300px;
+	margin:0 auto;
+	background-color: $light-green;
+	border-style:solid;
+	border-color: $khaki;
+} 
+
+div#header-navigation
+ {
+	background-image:url('GreenFeuilles.jpg');
+	padding: 30px;
+
+	h1{ 
+	 font-family: $Header-font;
+	 text-align:center;
+     color:$dark-green;
+     font-size: 90px;
+    }
+}
+
+footer#page_footer {
+	background-image:url('GreenFeuilles.jpg');
+	margin-top: 50px;
+	padding: 20px;
+
+	p
+    {
+      font-family: $accent-font;
+	  font-size: 23px;
+	  color: $khaki;
+    }
+}
+
+div#Img{
+	width:1250px;
+	height:300px;
+	background-image:url('Denbies-Hillside.jpg');
+   	border-radius:25px;
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 25px;
+	margin-right: 25px;
+
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+
+	border-style:solid;
+	border-color: $brown;
+}
+
